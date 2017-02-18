@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import com.android.volley.toolbox.NetworkImageView;
@@ -16,12 +15,9 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-/**
- * Created by Berenice on 17/02/2017.
- */
 
 public class CeldaAdaptador extends ArrayAdapter<JSONObject> {
-    public CeldaAdaptador (Context context, int textViewResourseId){
+    public CeldaAdaptador(Context context, int textViewResourseId){
         super(context, textViewResourseId);
     }
     public CeldaAdaptador(Context context, int resourse, List<JSONObject> items){
@@ -68,5 +64,6 @@ public class CeldaAdaptador extends ArrayAdapter<JSONObject> {
 
         return celda;
     }
+
 
 }

@@ -20,16 +20,20 @@
         android:layout_alignParentTop="true" />
 
     <TextView
+        android:text="Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/_nombre"
+        android:layout_below="@+id/_imagen"
+        android:layout_alignParentStart="true" />
+
+    <TextView
         android:text="Pais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/_nombre"
         android:layout_alignParentStart="true"
-        android:id="@+id/_pais"
-        android:textSize="24sp"
-        android:textAlignment="center"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/_pais" />
 
     <TextView
         android:text="Cantidad"
@@ -37,11 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/_pais"
         android:layout_alignParentStart="true"
-        android:id="@+id/_cantidad"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textAlignment="center"
-        android:textSize="18sp" />
+        android:id="@+id/_cantidad" />
 
     <TextView
         android:text="Uso"
@@ -49,24 +49,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/_cantidad"
         android:layout_alignParentStart="true"
-        android:id="@+id/_uso"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textAlignment="center"
-        android:textSize="18sp" />
-
-    <TextView
-        android:text="Nombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/_nombre"
-        android:fontFamily="monospace"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_below="@+id/_imagen"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/_uso" />
 </RelativeLayout>
